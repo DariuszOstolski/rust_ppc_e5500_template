@@ -1,4 +1,4 @@
-# [PowerPC E5500 project template](https://github.com/DariuszOstolski/rust_ppc_e5500_template)
+# [Rust PowerPC E5500 project template](https://github.com/DariuszOstolski/rust_ppc_e5500_template)
 
 This is a template [Rust](https://www.rust-lang.org/) project to be able to 
 cross compile for [PowerPC E5500](https://en.wikipedia.org/wiki/PowerPC_e5500) 
