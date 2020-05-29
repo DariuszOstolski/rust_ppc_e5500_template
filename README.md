@@ -49,7 +49,7 @@ $ xargo build --target powerpc64-unknown-linux-gnu
 * If you have this error:
 ```console
 error[E0635]: unknown feature `llvm_asm`
- --> /home/dostolski/.cargo/registry/src/github.com-1ecc6299db9ec823/compiler_builtins-0.1.29/src/lib.rs:3:12
+ --> /home/rusty/.cargo/registry/src/github.com-1ecc6299db9ec823/compiler_builtins-0.1.29/src/lib.rs:3:12
 ```
 There is a bug in cargo-xbuild (see: https://stackoverflow.com/a/61784361/4175326), execute following command:
 
