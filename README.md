@@ -33,7 +33,7 @@ You will have to switch to nightly because std/core depends on nightly.
 ```console
 rustup default nightly
 rustup component add rust-src
-rustup target add powepc64-unknown-linux-gnu
+rustup target add powerpc64-unknown-linux-gnu
 cargo install xargo
 ```
 
