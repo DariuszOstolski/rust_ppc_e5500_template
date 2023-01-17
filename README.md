@@ -19,11 +19,13 @@ Dependencies:
 
 ### PowerPC GCC toolchain installation
 
-Ubuntu 18.04/20.04.5 instructions to install powerpc cross compiler
+Ubuntu 18.04/20.04.5 see ubuntu_20.04 branch.
+
+Ubuntu 22.04 instructions to install powerpc cross compiler
 
 ```console
-sudo apt-get install gcc-7-powerpc64-linux-gnu
-sudo update-alternatives --install /usr/bin/powerpc-linux-gnu-gcc powerpc-linux-gnu-gcc /usr/bin/powerpc64-linux-gnu-gcc-7 10
+sudo apt-get install gcc-11-powerpc64-linux-gnu
+sudo update-alternatives --install /usr/bin/powerpc-linux-gnu-gcc powerpc-linux-gnu-gcc /usr/bin/powerpc64-linux-gnu-gcc-11 10
 ```
 
 ### Installing dependencies
